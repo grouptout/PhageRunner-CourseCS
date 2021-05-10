@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de268702e37de8149a28546dec673ead, type: 3}
+  m_Name: StartVariables
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 12.7
+  gravity: 3.5
+  buffDnaXpDuration: 5
+  buffDnaHpDuration: 2
+  buffDnaInvDuration: 6
+  spTimeDilationDuration: 4
+  spTimeAccelerationDuration: 4
+  spDoubleJumpDuration: 999
+  debuffLavaDuration: 3
+  debuffLavaDamagePerSecond: 6
+  buffHealPerSecond: 9
+  dnaXpChance: 29
+  dnaHpChance: 12
+  dnaInvChance: 4
+  doubleJumpChance: 6
+  timeDilationChance: 3
+  timeAccelerationChance: 1
+  lavaChance: 17
+  distanceBetween: 2.15
+  minLength: 5
+  maxLength: 29
+  minHeight: 0.1
+  maxHeight: 1
+  minWidth: 1
+  maxWidth: 3
+  blockElevationAmplitude: 2
+  levelWeight: 19
+  minAllAdd: 0.4
+  levelUpSpeedAdd: 2.1
+  levelUpJumpAdd: 1.75
+  minLevelWeight: 1.4
+  maxLevelWeight: 1.9
+  blockElevationAmplitudeAdd: 0.5
+  distanceBetweenAmplitudeAdd: 0.1
+  minXpBuffChance: 7
+  maxLavaDbuffChance: 67
+  bossSpawnChance: 85
+  minXpBuffGain: 4
+  maxXpBuffGain: 7
+  minLavaDbuffGain: 2
+  maxLavaDbuffGain: 3.2
+  maxExtraJumps: 3
+  minBossDmg: 25
+  maxBossDmg: 63
+  bossRewardHp: 45
+  bossRewardXp: 100
